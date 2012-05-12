@@ -14,3 +14,6 @@
     .IF TEST == 10
     .ELSE
     .ENDIF
+    
+    ; SPECIAL CASES
+    .DAT "\r\n\a\0\"\'"
