@@ -1,0 +1,20 @@
+; DCPU STRESS TEST
+; LITERAL TEST FILE
+
+    ; LONG FORM LITERALS
+    SET A, 0b101101011
+    SET A, 1234
+    SET A, 0x1234
+    SET A, 'a'
+    
+    ; SHORT FORM LITERALS
+    SET A, -1
+    SET A, 30
+    SET A, 15
+    SET A, 0xFFFF
+    
+    ; SPECIAL CASES
+    SET A, ';'
+    
+    ; ERRORS
+    SET A, undefined

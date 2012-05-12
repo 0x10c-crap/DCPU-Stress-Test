@@ -1,0 +1,13 @@
+; DCPU STRESS TEST
+; LABEL TEST FILE
+
+label1:
+:label2
+    ; BACKWARD REFERENCE
+    SET A, label1
+    ; FORWARD REFERENCE
+    SET A, label3
+label3:
+
+    ; ERRORS
+    SET A, undefined

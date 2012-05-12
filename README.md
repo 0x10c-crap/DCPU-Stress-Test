@@ -7,3 +7,6 @@ be able to assemble is with no errors, only warnings (for redundancy and literal
 
 Each file is less than 10,001 lines long.  If you wish to include your results, submit a pull
 request and it will be added.
+
+Also included are several more focused test files that may not be assembler-ambiguous and may include
+intentionally errorneous code.
